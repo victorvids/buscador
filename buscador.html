@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Buscador IPN</title>
+	<meta name="description" content="Página principal del Instituto Politécnico Nacional, donde se muestran los comunicados y noticias del día, la oferta Educativa de Nivel Medio Superior, Nivel Superior y Posgrado. Agenda de Eventos Institucionales, Enlaces de Interés, Redes Sociales.">
+	<meta name="keywords" content="IPN,Instituto,Politécnico,becas,estdiantes,docencia,investigador,deportes,cultura,ingeniería,oferta,escuelas,cecyt,maestrias,posgrados,egresados,educación,a,distancia
+">
+    <!-- Meta para verificación del buscador gratuito -->
+    <meta name="google-site-verification" content="MFswsr8mYDk6bAjZsP4dVshJFWYQGYMY5Pit-XGGYDU" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/estilosobre.css">
+	<!-- Open Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet" type="text/css">
+    <!-- Fuente plantilla base -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <script type="text/javascript">
+      function mandarQuery(){
+	  var texto = document.getElementById("txt_query").value;
+	  window.location = "https://www.cpwi-buzon404.ipn.mx/buscador/buscador.html?q="+texto+"
+}				     
+</script> 
+</head>
+<body data-spy="scroll" data-target="#menu-manual" data-offset="120">
+ 		<header class="d-none d-md-block">
+            <nav class="navbar fixed-top" role="navigation" id="barraGobmx">
+                <div class="u-noPaddingContainer container ">                    
+                    <a class="navbar-brand" style="padding-left: 8px;" href="https://www.gob.mx/">
+                        <img src="img/gobmxlogo.svg"height="29px" alt="Página de inicio, Gobierno de México">
+                    </a>
+                    <div class="text-rigth barraGobmx-enlaces">
+                        <a href="https://www.gob.mx/tramites" title="Trámites" class="nav-link">
+                            Trámites
+                        </a>
+                        <a href="https://www.gob.mx/gobierno" title="Gobierno" class="nav-link">
+                            Gobierno
+                        </a>
+                        <a href="https://www.gob.mx/participa" title="Participación Ciudadana" class="nav-link">
+                            Participa
+                        </a>
+                        <a href="https://datos.gob.mx" title="Datos Abiertos" class="nav-link">
+                            Datos
+                        </a>
+                        <a href="https://www.gob.mx/busqueda">
+                        <span class="sr-only" class="nav-link">Búsqueda</span><i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+                <div class="pace  pace-inactive">
+            <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+                <div class="pace-progress-inner"></div>
+            </div>
+            <div class="pace-activity"></div>
+        </div>
+        
+        <!-- Encabezado principal -->
+        <div class="u-noPaddingContainer contenedorGobierno">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-md-12 text-center">
+                        <div class="d-inline-block ipnLogo-enlace">
+                            <a href="https://dev.desarrolloweb.ipn.mx" class="">
+                                <p class="ipn-logo">
+                                    <img src="img/logo-ipn.png" class="img-fluid" alt="Logotipo del Instituto Politécnico Nacional">
+                                </p>
+                                <p class="ipnLogo-slogan">
+                                    <span class="u-fw600">Instituto Politécnico Nacional</span><br>
+                                    <span class="slogan">"La Técnica al Servicio de la Patria".</span>
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="utileriasIpn">                
+                    <ul class="barra-enlaces">
+                        <li>
+                            <a href="https://www.ipn.mx/directorio.html">DIRECTORIO</a> |
+                        </li>
+                        <li>
+                            <a href="https://www.ipn.mx/correo-electronico.html">CORREO ELECTRÓNICO</a> |
+                        </li>
+                        <li>
+                            <a href="https://www.ipn.mx/calendario-academico.html">CALENDARIO</a> |
+                        </li>
+                        <li>
+                            <a href="https://www.ipn.mx/buzon.html">BUZÓN</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Opciones de accesibilidad -->
+                <div class="contenedorAccesibilidad">
+                    <div class="idiomas text-right">
+                        <a href="https://dev.desarrolloweb.ipn.mx/ingles/">                            
+                            <img src="img/EN-icon-on.png" alt="Idioma Inglés">
+                        </a>
+                        <a href="https://dev.desarrolloweb.ipn.mx/frances/">
+                            <img src="img/FR-icon-on.png" alt="Idioma Francés">
+                        </a>
+                        <a href="https://dev.desarrolloweb.ipn.mx/" class="mr-3">
+                            <img src="img/MX-icon.png" alt="Idioma Español">
+                        </a>
+                    
+                        <i class="fab fa-accessible-icon"></i>
+                        <a class="btn--accesibilidad contraste">
+                            <i class="fas fa-adjust"></i>
+                        </a>
+                        <a class="btn--accesibilidad aumentaLetra">A+</a>
+                        <a class="btn--accesibilidad reduceLetra">A-</a>
+                        <a class="btn--accesibilidad resetLetra">A </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Menú principal -->
+		<nav class="navbar navbar-expand-xl navbar-dark d-block d-xl-flex justify-content-center" id="menu-principal">
+		    <div class="u-noPaddingContainer">
+		        
+		        <!-- Banderin -->
+		        <p class="nav-link banderin u-oculto">
+		            <img src="" alt="" class="banderin-img">
+		        </p>
+		 
+
+		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		            <span class="navbar-toggler-icon"></span> Menú principal
+		        </button>
+
+		        <div class="collapse navbar-collapse d-xl-flex justify-content-md-around" id="navbarSupportedContent">
+					<ul class="navbar-nav">
+		<li class="nav-item">
+		    <a class="nav-link" href="https://www.ipn.mx/" title="Inicio">
+		      Inicio
+		    </a>
+		</li>
+		<li class="nav-item">
+		    <a class="nav-link" href="https://www.ipn.mx/conocenos/mision-historia.html" title="Inicio">
+		      Conocenos
+		    </a>
+		</li>	
+		<li class="nav-item">
+		    <a class="nav-link" href="https://www.ipn.mx/oferta-educativa/" title="Inicio">
+		      Oferta Educativa
+		    </a>
+		</li>	
+		<li class="nav-item">
+		    <a class="nav-link" href="https://www.ipn.mx/estudiantes/" title="Inicio">
+		      Estudiantes
+		    </a>
+		</li>	
+		<li class="nav-item">
+		    <a class="nav-link" href="https://www.ipn.mx/investigacion/" title="Inicio">
+		      Investigacion y Posgrados
+		    </a>
+		</li>	
+		<li class="nav-item">
+		    <a class="nav-link" href="https://www.ipn.mx/egresados/" title="Inicio">
+		      Egresados
+		    </a>
+		</li>	
+		<li class="nav-item">
+		    <a class="nav-link" href="https://www.ipn.mx/vinculacion/" title="Inicio">
+		      Vinculación
+		    </a>
+		</li>			
+		<li class="nav-item">
+		    <a class="nav-link" href="https://www.ipn.mx/servicios/" title="Inicio">
+		      Servicios
+		    </a>
+		</li>	
+		<li class="nav-item">
+		    <a class="nav-link" href="https://www.ipn.mx/transparencia/" title="Inicio">
+		      Transparencia
+		    </a>
+		</li>							
+		<li class="nav-item">
+		    <a class="nav-link" href="https://www.ipn.mx/estadisticas.html" title="Estadísticas">
+		      Estadísticas
+		    </a>
+		</li>
+
+		</ul>
+		        </div>
+		    </div>
+		    <!-- Opciones de accesibilidad flotantes -->
+		    <div id="contenedorAccesibilidad-scroll" class="contenedorAccesibilidad u-oculto">
+		        <svg class="svg-inline--fa fa-accessible-icon fa-w-14" aria-hidden="true" data-fa-processed="" data-prefix="fab" data-icon="accessible-icon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M423.9 255.8L411 413.1c-3.3 40.7-63.9 35.1-60.6-4.9l10-122.5-41.1 2.3c10.1 20.7 15.8 43.9 15.8 68.5 0 41.2-16.1 78.7-42.3 106.5l-39.3-39.3c57.9-63.7 13.1-167.2-74-167.2-25.9 0-49.5 9.9-67.2 26L73 243.2c22-20.7 50.1-35.1 81.4-40.2l75.3-85.7-42.6-24.8-51.6 46c-30 26.8-70.6-18.5-40.5-45.4l68-60.7c9.8-8.8 24.1-10.2 35.5-3.6 0 0 139.3 80.9 139.5 81.1 16.2 10.1 20.7 36 6.1 52.6L285.7 229l106.1-5.9c18.5-1.1 33.6 14.4 32.1 32.7zm-64.9-154c28.1 0 50.9-22.8 50.9-50.9C409.9 22.8 387.1 0 359 0c-28.1 0-50.9 22.8-50.9 50.9 0 28.1 22.8 50.9 50.9 50.9zM179.6 456.5c-80.6 0-127.4-90.6-82.7-156.1l-39.7-39.7C36.4 287 24 320.3 24 356.4c0 130.7 150.7 201.4 251.4 122.5l-39.7-39.7c-16 10.9-35.3 17.3-56.1 17.3z"></path></svg><!-- <i class="fab fa-accessible-icon"></i> -->
+		        <a class="btn--accesibilidad contraste">
+		            <svg class="svg-inline--fa fa-adjust fa-w-16" aria-hidden="true" data-fa-processed="" data-prefix="fas" data-icon="adjust" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M8 256c0 136.966 111.033 248 248 248s248-111.034 248-248S392.966 8 256 8 8 119.033 8 256zm248 184V72c101.705 0 184 82.311 184 184 0 101.705-82.311 184-184 184z"></path></svg><!-- <i class="fas fa-adjust"></i> -->
+		        </a>
+		        <a class="btn--accesibilidad aumentaLetra">A+</a>
+		        <a class="btn--accesibilidad reduceLetra">A-</a>
+		        <a class="btn--accesibilidad resetLetra">A </a>
+		    </div>
+		</nav>  
+
+		<!-- Contenido Buscador  -->
+		<div class="container ">
+			<gcse:searchbox-only></gcse:searchbox-only>
+		</div>
+		<div class="container ">
+			
+
+			<script>
+			  (function() {
+			    var cx = '006960034577476407355:reyqt0d5x3g';
+			    var gcse = document.createElement('script');
+			    gcse.type = 'text/javascript';
+			    gcse.async = true;
+			    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+			    var s = document.getElementsByTagName('script')[0];
+			    s.parentNode.insertBefore(gcse, s);
+			  })();
+			</script>
+			<gcse:searchresults-only></gcse:searchresults-only>
+		
+		</div>
+
+
+		<!-- Buscador Contenido -->
+		        <!-- Pie de página -->
+        <footer class="piePagina">
+            
+            <!-- Aviso IPN -->
+            <div class="bg--guinda">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 piePagina-logoSep text-center mb-3">
+                            <img src="img/firma-sep-vertical.jpg" alt="" class="img-fluid mb-3">
+                            <div class="w-100"></div>
+                            <a href="https://www.gob.mx/sep">www.gob.mx/SEP</a>
+                        </div>
+                        <div class="col-lg-10 pl-5 piePagina-texto">
+                            <h3 class="text-center piePagina-titulo">INSTITUTO POLITÉCNICO NACIONAL</h3>
+                            <p>
+                                D.R. Instituto Politécnico Nacional (IPN). Av. Luis Enrique Erro S/N, Unidad Profesional Adolfo López Mateos, Zacatenco, Alcaldía Gustavo A. Madero, C.P. 07738, Ciudad de México 2009-2013.
+                            </p>
+                            <br>
+                            <p>
+                                Esta página es una obra intelectual protegida por la Ley Federal del Derecho de Autor, puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica; su uso para otros fines, requiere autorización previa y por escrito de la Dirección General del Instituto.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Boton para regresar al inicio de la pagina -->
+            <span id="top-contenedor">
+                <a href="#" class="top-link" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+                    <i class="fas fa-chevron-up"></i>
+                </a>
+            </span>
+        
+        </footer>
+                <!-- JS Resources -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>    
+
+</body>
+</html>

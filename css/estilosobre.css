@@ -1,0 +1,198 @@
+/* Estilos sobreescritos */
+
+html {
+    font-family: 'Roboto', "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background: #FFF;
+    color: #666;
+    font-family: 'Roboto', "Open Sans", sans-serif;
+    position: relative; /* Se utiliza el estilo para que funcione el scrollspy */
+}
+
+/* Breadcrumbs (Migajas) */
+.breadcrumb {
+    background: transparent;
+    color: #682444;
+    margin-bottom: 0;
+}
+
+    .breadcrumb-separador {
+        color: #000;
+    }
+
+hr {
+    border-top: 1px solid #CCC;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+}
+
+a {
+    color: #32587A;
+}
+
+a:hover h1,
+a:hover h2,
+a:hover h3,
+a:hover h4,
+a:hover h5 {
+
+    opacity: .6;
+
+}
+
+.container {
+    /*padding: 25px;*/
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+
+.navbar {
+    padding: 0;
+}
+
+.btn {
+    white-space: pre-wrap;
+}
+
+.dropdown .bg--negro li a:hover {
+    color: #000;
+}
+
+
+/* Tablas */
+.table .thead-dark th { 
+    background: #32587A;
+    border: #0F1521;
+}
+
+.table th {
+    font-size: 1rem;
+}
+
+.table td { 
+    color: #666;
+    font-size: 1rem;
+}
+
+    .table-hover tbody tr:hover td {
+        color: #32587A;
+    }
+
+/* ESTILOS PARA EL BUSCADOR DE BIBLIOTECA*/
+.buscadorBiblioteca .tab-content {
+    padding: 25px;
+}
+
+/* Acomoda los radio buttons en el formulario */
+.form-check-input {
+    margin-left: 0;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+/* Estios sobreescritos del slider */
+
+.carousel-item {
+    max-height: 450px;
+}
+
+    /*.carousel-item--h600 {
+        max-height: 600px;
+    }*/
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-image: none;
+}
+
+    .carousel-control-next-icon .fa-chevron-circle-right,
+    .carousel-control-prev-icon .fa-chevron-circle-left {
+        color: #0C0003;
+        font-size: 45px;
+    }
+
+/*.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    overflow: hidden;
+}*/
+
+
+/* Estilos sobreescritos de owl carrusel */
+
+.owl-carousel {
+    z-index: 0; /* Para que el carusel se vea abajo del menu */
+}
+
+.owl-prev {
+    color: #0C0003;
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -35px;
+    display: block!IMPORTANT;
+    font-size: 40px;
+}
+
+.owl-next {
+    color: #0C0003;
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: -10px;
+    display: block!IMPORTANT;
+    font-size: 40px;
+}
+
+    .owl-prev .fa-chevron-circle-left:hover, .owl-next .fa-chevron-circle-right:hover {
+        color: #ccc;
+    }
+
+@media screen and (max-width: 600px) {
+    .owl-prev {
+        margin-left: 5px
+    }
+
+    .owl-next {
+        right: 30px;
+        margin-right: 0 !important;
+    }
+}
+
+
+/* Modifica la transparencia del estado hover de los menus */
+.navbar-dark .navbar-nav .nav-link:focus, 
+.navbar-dark .navbar-nav .nav-link:hover { 
+
+    color: rgba(255,255,255,.5);
+
+}
+
+
+/* Modifica el botton del buscador */
+
+.input-group-append {
+    margin-left:  5px;  
+}
+
+#navbarMenuManual .navbar-nav .nav-link { 
+    color: rgba(255,255,255,.8);
+}
+
+    #navbarMenuManual .navbar-nav .nav-link.active {
+        color: rgba(255,255,255,.4);        
+    }
